@@ -36,7 +36,7 @@ video</a>.
 Clone repository recursively in order to install glm from the diff_gaussian_rasterization package.
 
 ```bash
-git clone https://github.com/Florian-Barthel/splatviz.git --recursive
+git clone https://github.com/HumbertoDiego/splatviz.git --recursive
 ```
 </td>
 </tr>
@@ -57,17 +57,6 @@ conda env create \
 conda activate gs-view
 
 pip install -r requirements.txt
-```
-</td>
-<td>
-Alternatively, create the environment with <b>micromamba</b>:
-
-```bash
-micromamba env create \
---file environment.yml \
---channel-priority flexible -y
-
-micromamba activate gs-view
 ```
 </td>
 </tr>
