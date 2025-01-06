@@ -55,6 +55,8 @@ conda env create \
 -f environment.yml
 
 conda activate gs-view
+
+pip install -r requirements.txt
 ```
 </td>
 <td>
